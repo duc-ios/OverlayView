@@ -1,0 +1,6 @@
+framework module OverlayView {
+  umbrella header "OverlayView-umbrella.h"
+
+  export *
+  module * { export * }
+}

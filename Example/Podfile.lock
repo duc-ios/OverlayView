@@ -1,0 +1,23 @@
+PODS:
+  - OverlayView (0.0.1):
+    - SteviaLayout
+  - SteviaLayout (4.7.3)
+
+DEPENDENCIES:
+  - OverlayView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SteviaLayout
+
+EXTERNAL SOURCES:
+  OverlayView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OverlayView: a8f68168c3a3e80337cec7e6b5b525752fb58672
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+
+PODFILE CHECKSUM: 3ad5530a0e21c708599122eb64f1b71bde88462b
+
+COCOAPODS: 1.10.1
