@@ -314,12 +314,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OverlayView/OverlayView.framework",
-				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OverlayView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

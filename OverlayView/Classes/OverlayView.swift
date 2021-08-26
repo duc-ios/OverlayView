@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Stevia
 
 // MARK: - Overlay
 
@@ -30,7 +29,7 @@ private class OverlayWindow: UIWindow {
 
 public class OverlayView: UIView {
     public enum Position {
-        case middle, bottom, view(UIView, CGPoint? = nil, directionX: DirectionX = .center, directionY: DirectionY = .down)
+        case middle, top, bottom, view(UIView, CGPoint? = nil, directionX: DirectionX = .center, directionY: DirectionY = .down)
     }
     
     public enum BackgroundStyle {
@@ -90,6 +89,8 @@ public class OverlayView: UIView {
             view.transform = CGAffineTransform(scaleX: 0.01, y: 0.01)
         case .bottom:
             view.transform = CGAffineTransform(translationX: 0, y: view.bounds.height)
+        case .top:
+            view.transform = CGAffineTransform(translationX: 0, y: -view.bounds.height)
         case .view(_, _, let directionX, let directionY):
             switch (directionX, directionY) {
             case (.right, .down):
@@ -143,23 +144,29 @@ public class OverlayView: UIView {
             currentWindow = overlayWindow
             _from = overlayWindow.rootViewController!.view
         }
-        _from.sv(self)
+        _from.subviews(self)
         fillContainer()
         
-        sv(view)
+        subviews(view)
         layoutIfNeeded() // initial position
         
         switch position {
         case .middle:
             view.centerInContainer()
-            view.left(>=16)
-            view.top(>=16)
+            view.left(greaterThanOrEqualTo: 16).top(greaterThanOrEqualTo: 16)
+        case .top:
+            view.top(0)
+            if view.widthConstraint == nil {
+                view.left(0).right(0)
+            } else {
+                view.left(greaterThanOrEqualTo: 0).centerHorizontally()
+            }
         case .bottom:
             view.bottom(0)
             if view.widthConstraint == nil {
-                view.left(0).fillHorizontally()
+                view.left(0).right(0)
             } else {
-                view.left(>=0).centerHorizontally()
+                view.left(greaterThanOrEqualTo: 0).centerHorizontally()
             }
         case .view(let v, let p, let directionX, let directionY):
             func layout(point: CGPoint) {
@@ -171,17 +178,17 @@ public class OverlayView: UIView {
                 case (.center, .down):
                     view.left(point.x-view.bounds.width/2).top(point.y)
                 case (.right, .up):
-                    view.left(point.x).Bottom == self.Top+point.y
+                    view.left(point.x).bottom(topAnchor, offset: point.y)
                 case (.left, .up):
-                    view.left(point.x-view.bounds.width).Bottom == self.Top+point.y
+                    view.left(point.x-view.bounds.width).bottom(topAnchor, offset: point.y)
                 case (.center, .up):
-                    view.left(point.x-view.bounds.width/2).Bottom == self.Top+point.y
+                    view.left(point.x-view.bounds.width/2).bottom(topAnchor, offset: point.y)
                 }
             }
             if let p = p {
                 layout(point: v.convert(p, to: from))
             } else {
-                layout(point: v.convert(CGPoint(x: v.bounds.width/2, y: v.bounds.height), to: from))
+                layout(point: v.convert(CGPoint(x: v.bounds.width/2, y: directionY == .up ? v.bounds.minY : v.bounds.maxY), to: from))
             }
         }
         

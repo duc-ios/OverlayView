@@ -9,157 +9,88 @@
 /* Begin PBXBuildFile section */
 		04060A363382992A5887A4A5A8C29CC7 /* Pods-OverlayView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80C877730D75EF4AC6358239FD130D /* Pods-OverlayView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D12CBF585578B1AA8358813FC5124FE /* Pods-OverlayView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E28C38394B68473DF0E414EBC92B12 /* Pods-OverlayView_Tests-dummy.m */; };
-		1ECFE7C5B93D71274B0AC2FC4EBE5814 /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */; };
-		2D68FC2507D7AD40C909254ACFBDAAB0 /* SteviaLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */; };
-		3D62BA5169D4FF88179F12CCC90F2576 /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */; };
-		43655F64563FF4545F2C46DB1737A572 /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */; };
-		4BC6FFD620BF1CB55DE55F75B05D5ADE /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */; };
-		5912AD601A23388568389DA49527D073 /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */; };
-		5C0B3021EAF72FD90AE13A2718C7E087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */; };
-		64E23B80DA7EDBAE32FBBEFA00D81E0C /* OverlayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB0A097B4282D498887336201064E9F /* OverlayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D8D60FE01087F29038B83FA98F1D25E /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */; };
-		824D42A656657397EDF07BB8D8527906 /* Stevia+Baselines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */; };
-		86129D22EF7A0C2A332CE1FBAC4CCE39 /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */; };
-		8C478F3037C8E12316896B71DABD1534 /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */; };
-		90F6AF85A5C0BA536CE9C2D631E8F4B2 /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */; };
-		A2C84A0884C1EFDE1A4BEBDDCBADBC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */; };
-		A474264C554DBEC85786EC6ADC7D935A /* Pods-OverlayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A488434F76D3A44334CD38DA3A740D8E /* SteviaLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6AD18BA01ACD6F540E0E1A4128C370D /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */; };
-		AA387CE7B748CB7C76B2B8F5B12721F2 /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */; };
-		AB3917873062A16018F7EE17162DC8D3 /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */; };
-		B096AB180CBB753F04B52C8B7074B57D /* Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538E425C0B28A11053DA2CEA06A59A4B /* Stevia.framework */; };
-		B243388B637AFD5DC843FE7DBA99CEA9 /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */; };
-		BA7B931C01D6699B5A1AECEF461D00DE /* Pods-OverlayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F01E4EAFFDB8BF140A73BE7FDE30BB /* Pods-OverlayView_Example-dummy.m */; };
-		CD05BF90E44CCE53EDC91D303806E520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */; };
-		D225043209D79BA2F5B12CF37DC874EB /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8D500ECCE97EAC5FF650172B58B96 /* OverlayView.swift */; };
-		D2DF792FE6CBEAFB2AA05F397C040608 /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */; };
-		D6BF1B5EB1B83D20D220F174D81B3A24 /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */; };
-		D947FFF546FC09AD4FABC8C59823EE97 /* OverlayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CFE7F57BCDE6F3EF2901EB0744E5A2 /* OverlayView-dummy.m */; };
-		E358DACCAA174FE1DA32251C6359D786 /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */; };
-		E793B3A880EC31C9B1FF050596F4D9BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */; };
-		ECB479658BDC8459FBF1BEB90E542BCF /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */; };
-		FD334E39AF331EE1CEAB3AE467080B9D /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */; };
+		4FBC51B746FE32F60516508D80FFC3FE /* Pods-OverlayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F01E4EAFFDB8BF140A73BE7FDE30BB /* Pods-OverlayView_Example-dummy.m */; };
+		9D8B1A374B0E141822B2FC21D792CB24 /* Pods-OverlayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7941AF3F3770DD73CC8F02965FDDCE6 /* OverlayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15F19F346868D1E2C4DB27E84B9094C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE85FB9D785496D7326287D260B64 /* UIView+.swift */; };
+		CAD2110E5C341681F1BC73FA39BFBED0 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614DA1A01FF9319DA4C3138C8B57A12 /* OverlayView.swift */; };
+		CD05BF90E44CCE53EDC91D303806E520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CF1D9FAC8F09CD0150DD523C7E01FA16 /* OverlayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E82EB76D9199DD664CD1B38CCFE555 /* OverlayView-dummy.m */; };
+		DFB58B336253ADF7DE8E58055A73EEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EA4BB4D9C9F06B9AB19DBCF3ADEB8543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		F9092709EFDDE9676FE3B6FA86AB3196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D8320110DD5DCEF3901372EC959F733 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC4361222BDC6CE447F5A626C0CA3C7C;
-			remoteInfo = OverlayView;
-		};
-		41818D2FA1594325B469E5212549D806 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
-			remoteInfo = SteviaLayout;
-		};
-		58F2754E341D4DCDE321DE7FE60012F6 /* PBXContainerItemProxy */ = {
+		874EEEE842362637B059FE67759412A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 94FFDCCD23AF969B7D7CF4FDC5B41115;
 			remoteInfo = "Pods-OverlayView_Example";
 		};
-		D2D6517302EEB424850BA79029FB6615 /* PBXContainerItemProxy */ = {
+		97D9D6C8D535B9932DC349FF7BCBEC59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
-			remoteInfo = SteviaLayout;
+			remoteGlobalIDString = AC4361222BDC6CE447F5A626C0CA3C7C;
+			remoteInfo = OverlayView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Percentage.swift"; path = "Source/Stevia+Percentage.swift"; sourceTree = "<group>"; };
 		0AD5FA6F8E6C25D29B3BBE7E8771FFC5 /* Pods-OverlayView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OverlayView_Tests.modulemap"; sourceTree = "<group>"; };
-		0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Constraints.swift"; path = "Source/Stevia+Constraints.swift"; sourceTree = "<group>"; };
-		101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Fill.swift"; path = "Source/Stevia+Fill.swift"; sourceTree = "<group>"; };
-		1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Equation.swift"; path = "Source/Stevia+Equation.swift"; sourceTree = "<group>"; };
-		1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Center.swift"; path = "Source/Stevia+Center.swift"; sourceTree = "<group>"; };
-		1F258E579801A7E0E8ABB4BE0F647FB0 /* OverlayView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OverlayView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2EB0A097B4282D498887336201064E9F /* OverlayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-umbrella.h"; sourceTree = "<group>"; };
+		1494C4E243CF94AF5C8098AC01F2A744 /* OverlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OverlayView.release.xcconfig; sourceTree = "<group>"; };
+		21E82EB76D9199DD664CD1B38CCFE555 /* OverlayView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OverlayView-dummy.m"; sourceTree = "<group>"; };
+		2822DFC3B0F5AFBB56259E97B98341A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		30F01E4EAFFDB8BF140A73BE7FDE30BB /* Pods-OverlayView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OverlayView_Example-dummy.m"; sourceTree = "<group>"; };
-		3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Baselines.swift"; path = "Source/Stevia+Baselines.swift"; sourceTree = "<group>"; };
 		35C25AE4310AFB4909364BA9A6B837BF /* Pods-OverlayView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Tests-Info.plist"; sourceTree = "<group>"; };
-		3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Style.swift"; path = "Source/Stevia+Style.swift"; sourceTree = "<group>"; };
 		42A9C57A74A64C8B147A72C110ED4F22 /* Pods-OverlayView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OverlayView_Example.modulemap"; sourceTree = "<group>"; };
-		42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Notifications.swift"; path = "Source/Stevia+Notifications.swift"; sourceTree = "<group>"; };
-		45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.debug.xcconfig; sourceTree = "<group>"; };
-		534C49985226A81D2A55B26CFD0EDBEA /* OverlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OverlayView.release.xcconfig; sourceTree = "<group>"; };
-		538E425C0B28A11053DA2CEA06A59A4B /* Stevia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stevia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Hierarchy.swift"; path = "Source/Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
-		610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+GetConstraint.swift"; path = "Source/Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
-		67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Alignment.swift"; path = "Source/Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		4614DA1A01FF9319DA4C3138C8B57A12 /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = OverlayView/Classes/OverlayView.swift; sourceTree = "<group>"; };
+		4FFC73BF3A992C03260A133F28A82689 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		629E13B3F8BB10A97956D2F17896E6E0 /* OverlayView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OverlayView.modulemap; sourceTree = "<group>"; };
+		663BE85FB9D785496D7326287D260B64 /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "OverlayView/Classes/UIView+.swift"; sourceTree = "<group>"; };
 		6B315AEFDCE53BE99C3F4815EE18018D /* Pods-OverlayView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7058732BBDE6613D045EB8B9B65ED10A /* OverlayView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OverlayView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7BD21FC44A721202773FC99C579CA83E /* Pods-OverlayView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OverlayView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B34D99B0E042E0592212F8C6E53907B /* OverlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OverlayView.debug.xcconfig; sourceTree = "<group>"; };
-		92CFE7F57BCDE6F3EF2901EB0744E5A2 /* OverlayView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OverlayView-dummy.m"; sourceTree = "<group>"; };
+		8E739A13D424AEA4F275C83726D02AA3 /* OverlayView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OverlayView-Info.plist"; sourceTree = "<group>"; };
 		93B57216EA782FF52C6DB4265476D007 /* Pods-OverlayView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OverlayView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9423A370603466C65C7E3DBE934F8FB3 /* OverlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OverlayView.debug.xcconfig; sourceTree = "<group>"; };
 		966C3543FA601389774FF2B51038FC29 /* Pods-OverlayView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E28C38394B68473DF0E414EBC92B12 /* Pods-OverlayView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OverlayView_Tests-dummy.m"; sourceTree = "<group>"; };
-		A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-umbrella.h"; sourceTree = "<group>"; };
+		A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-umbrella.h"; sourceTree = "<group>"; };
 		AA3E9606A2FC83972075EAA075CB8F54 /* Pods-OverlayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ADB9B62644F34554D0399E231E116C20 /* OverlayView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OverlayView-Info.plist"; sourceTree = "<group>"; };
-		AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Stacks.swift"; path = "Source/Stevia+Stacks.swift"; sourceTree = "<group>"; };
 		B01517CB3A76A2D0F34B1F1F7CE8EB70 /* Pods-OverlayView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7B87388FAB2A5F81DA32AA07C7DA317 /* OverlayView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OverlayView.modulemap; sourceTree = "<group>"; };
 		B7DFD2422710EAF9E84A3744D9CB137E /* Pods_OverlayView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OverlayView_Example.framework; path = "Pods-OverlayView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B943F422EBEC02EFC694893132AC7FBD /* SteviaLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteviaLayout.modulemap; sourceTree = "<group>"; };
-		BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Size.swift"; path = "Source/Stevia+Size.swift"; sourceTree = "<group>"; };
 		BB80C877730D75EF4AC6358239FD130D /* Pods-OverlayView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverlayView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Content.swift"; path = "Source/Stevia+Content.swift"; sourceTree = "<group>"; };
-		BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+FlexibleMargin.swift"; path = "Source/Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
-		BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BD04CE2770B7872A955F5C171BCF1180 /* SteviaLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SteviaLayout-Info.plist"; sourceTree = "<group>"; };
-		C9687338385D134D6882C2F8221B2F0A /* SteviaLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-prefix.pch"; sourceTree = "<group>"; };
-		C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.release.xcconfig; sourceTree = "<group>"; };
-		CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Operators.swift"; path = "Source/Stevia+Operators.swift"; sourceTree = "<group>"; };
 		CBB91AF2DB2208963EC11DB3C17487E2 /* Pods-OverlayView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE6C2F2147D7DAEFDB9793BA21F699EA /* Pods-OverlayView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverlayView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D223CC38AFE5806AE91FEDD090832887 /* OverlayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-prefix.pch"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2E73EC83A3DDF9E972008E2DAF2F661 /* Pods-OverlayView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Position.swift"; path = "Source/Stevia+Position.swift"; sourceTree = "<group>"; };
-		DCCB4B0A08BE7B08B33CF9F68094BA73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stevia.framework; path = SteviaLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+LayoutAnchors.swift"; path = "Source/Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
-		E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteviaLayout-dummy.m"; sourceTree = "<group>"; };
+		E628340B4C5DF4E7AD6BC871895C3291 /* OverlayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-prefix.pch"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EF27C4EF36DE48934CF784E58EB4A155 /* Pods_OverlayView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OverlayView_Tests.framework; path = "Pods-OverlayView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverlayView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F1C8D500ECCE97EAC5FF650172B58B96 /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = OverlayView/Classes/OverlayView.swift; sourceTree = "<group>"; };
 		F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OverlayView.framework; path = OverlayView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86B95F20BAEC7829B379A691FB2777B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FA0229F412E4570384DE6A914F30561E /* Pods-OverlayView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+DoubleDash.swift"; path = "Source/Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EFC353648B1957E7F4B46DFEB299DAC /* Frameworks */ = {
+		13C92034D0328BE8BBA8A374CB48A5C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C84A0884C1EFDE1A4BEBDDCBADBC37 /* Foundation.framework in Frameworks */,
+				F9092709EFDDE9676FE3B6FA86AB3196 /* Foundation.framework in Frameworks */,
+				EA4BB4D9C9F06B9AB19DBCF3ADEB8543 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		993655A23787913790784590BAEE83FA /* Frameworks */ = {
+		F81C4B133093711A9283F992061E3EC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E793B3A880EC31C9B1FF050596F4D9BB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF447DE222346B2259228DD4AD3B4046 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C0B3021EAF72FD90AE13A2718C7E087 /* Foundation.framework in Frameworks */,
-				B096AB180CBB753F04B52C8B7074B57D /* Stevia.framework in Frameworks */,
+				DFB58B336253ADF7DE8E58055A73EEFC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,94 +105,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19B0B0AC27E99447FC9505C9CB5125DF /* iOS */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCE8BCA83B93A2C85ACCE04637FE590D /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		40362A202C242D0AB8F19E02A3630F8E /* OverlayView */ = {
-			isa = PBXGroup;
-			children = (
-				F1C8D500ECCE97EAC5FF650172B58B96 /* OverlayView.swift */,
-				DB10267D606CBCD99ACE2446B23B2F71 /* Pod */,
-				ACB3EC9665299EFEF76D6F38143F5DBB /* Support Files */,
-			);
-			name = OverlayView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5E0D7392EB5EA063541020A7015A06C6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				40362A202C242D0AB8F19E02A3630F8E /* OverlayView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		613DB741F54827A412351FEA91688B10 /* SteviaLayout */ = {
-			isa = PBXGroup;
-			children = (
-				67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */,
-				3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */,
-				1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */,
-				0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */,
-				BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */,
-				FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */,
-				1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */,
-				101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */,
-				BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */,
-				610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */,
-				60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */,
-				DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */,
-				42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */,
-				CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */,
-				0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */,
-				D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */,
-				BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */,
-				AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */,
-				3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */,
-				6CC01CD86C4E20FE0326C50D6C84638C /* Support Files */,
-			);
-			name = SteviaLayout;
-			path = SteviaLayout;
-			sourceTree = "<group>";
-		};
-		6CC01CD86C4E20FE0326C50D6C84638C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B943F422EBEC02EFC694893132AC7FBD /* SteviaLayout.modulemap */,
-				E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */,
-				BD04CE2770B7872A955F5C171BCF1180 /* SteviaLayout-Info.plist */,
-				C9687338385D134D6882C2F8221B2F0A /* SteviaLayout-prefix.pch */,
-				A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */,
-				45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */,
-				C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SteviaLayout";
-			sourceTree = "<group>";
-		};
-		8F33FC20D5D138A251BB9365F568D8D8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				538E425C0B28A11053DA2CEA06A59A4B /* Stevia.framework */,
-				19B0B0AC27E99447FC9505C9CB5125DF /* iOS */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9EDD74DAE3771E9E1121171C3BC126D0 /* Products */ = {
+		40C95F5FE3B216FB3853AE547C6CD406 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66989611FD259D50AD46153EC309F186 /* OverlayView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53825DAD09438EB482BF91D9856245CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */,
 				B7DFD2422710EAF9E84A3744D9CB137E /* Pods_OverlayView_Example.framework */,
 				EF27C4EF36DE48934CF784E58EB4A155 /* Pods_OverlayView_Tests.framework */,
-				DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66989611FD259D50AD46153EC309F186 /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				4614DA1A01FF9319DA4C3138C8B57A12 /* OverlayView.swift */,
+				663BE85FB9D785496D7326287D260B64 /* UIView+.swift */,
+				9F6BF2646D9BC894654A4C69F7934B8C /* Pod */,
+				CC8D2C4114AC2B38A418EC0503ECE642 /* Support Files */,
+			);
+			name = OverlayView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F6BF2646D9BC894654A4C69F7934B8C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC73BF3A992C03260A133F28A82689 /* LICENSE */,
+				7058732BBDE6613D045EB8B9B65ED10A /* OverlayView.podspec */,
+				2822DFC3B0F5AFBB56259E97B98341A9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A6C667D0A552DBB372B108BD10CF0FB1 /* Targets Support Files */ = {
@@ -271,21 +169,6 @@
 				ED0840C67AA7E92879D8A170EDE583C1 /* Pods-OverlayView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		ACB3EC9665299EFEF76D6F38143F5DBB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7B87388FAB2A5F81DA32AA07C7DA317 /* OverlayView.modulemap */,
-				92CFE7F57BCDE6F3EF2901EB0744E5A2 /* OverlayView-dummy.m */,
-				ADB9B62644F34554D0399E231E116C20 /* OverlayView-Info.plist */,
-				D223CC38AFE5806AE91FEDD090832887 /* OverlayView-prefix.pch */,
-				2EB0A097B4282D498887336201064E9F /* OverlayView-umbrella.h */,
-				8B34D99B0E042E0592212F8C6E53907B /* OverlayView.debug.xcconfig */,
-				534C49985226A81D2A55B26CFD0EDBEA /* OverlayView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OverlayView";
 			sourceTree = "<group>";
 		};
 		B2E8438316AB358E6595EE504F8E01B3 /* Pods-OverlayView_Example */ = {
@@ -305,34 +188,30 @@
 			path = "Target Support Files/Pods-OverlayView_Example";
 			sourceTree = "<group>";
 		};
+		CC8D2C4114AC2B38A418EC0503ECE642 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				629E13B3F8BB10A97956D2F17896E6E0 /* OverlayView.modulemap */,
+				21E82EB76D9199DD664CD1B38CCFE555 /* OverlayView-dummy.m */,
+				8E739A13D424AEA4F275C83726D02AA3 /* OverlayView-Info.plist */,
+				E628340B4C5DF4E7AD6BC871895C3291 /* OverlayView-prefix.pch */,
+				A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */,
+				9423A370603466C65C7E3DBE934F8FB3 /* OverlayView.debug.xcconfig */,
+				1494C4E243CF94AF5C8098AC01F2A744 /* OverlayView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OverlayView";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5E0D7392EB5EA063541020A7015A06C6 /* Development Pods */,
-				8F33FC20D5D138A251BB9365F568D8D8 /* Frameworks */,
-				D0084CFB2A907B8F5ECF2535A2C13978 /* Pods */,
-				9EDD74DAE3771E9E1121171C3BC126D0 /* Products */,
+				40C95F5FE3B216FB3853AE547C6CD406 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				53825DAD09438EB482BF91D9856245CF /* Products */,
 				A6C667D0A552DBB372B108BD10CF0FB1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0084CFB2A907B8F5ECF2535A2C13978 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				613DB741F54827A412351FEA91688B10 /* SteviaLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DB10267D606CBCD99ACE2446B23B2F71 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F86B95F20BAEC7829B379A691FB2777B /* LICENSE */,
-				1F258E579801A7E0E8ABB4BE0F647FB0 /* OverlayView.podspec */,
-				DCCB4B0A08BE7B08B33CF9F68094BA73 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		ED0840C67AA7E92879D8A170EDE583C1 /* Pods-OverlayView_Tests */ = {
@@ -354,27 +233,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0230773A61E5C4959FF8398569263C48 /* Headers */ = {
+		7B2DF06820010BE1593FF7CFEA197164 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A488434F76D3A44334CD38DA3A740D8E /* SteviaLayout-umbrella.h in Headers */,
+				9D8B1A374B0E141822B2FC21D792CB24 /* Pods-OverlayView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19641AD77587F57B21C18D98B9310750 /* Headers */ = {
+		B447AA45177779D427826C77D9B8F4DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E23B80DA7EDBAE32FBBEFA00D81E0C /* OverlayView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F1D067591C19313179C13A70525EBD5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A474264C554DBEC85786EC6ADC7D935A /* Pods-OverlayView_Example-umbrella.h in Headers */,
+				A7941AF3F3770DD73CC8F02965FDDCE6 /* OverlayView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A7A60567D7BAAF1BFF8D82A2C261DDC /* PBXTargetDependency */,
+				BCDF0C5BDA79C57F7B47F610B13714F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-OverlayView_Tests";
 			productName = "Pods-OverlayView_Tests";
@@ -410,18 +281,17 @@
 		};
 		94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1337CD350E6AE572BF40212572C1E7B /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */;
+			buildConfigurationList = B6E27191F777518436ABAF275FEDEA66 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */;
 			buildPhases = (
-				3F1D067591C19313179C13A70525EBD5 /* Headers */,
-				4860B0599378C0C2E88BE0659AE46688 /* Sources */,
-				993655A23787913790784590BAEE83FA /* Frameworks */,
-				CE5F81AC72D7F65BAA860397B1781E64 /* Resources */,
+				7B2DF06820010BE1593FF7CFEA197164 /* Headers */,
+				04DC9030C0F7BE39718C54478FC6416E /* Sources */,
+				F81C4B133093711A9283F992061E3EC6 /* Frameworks */,
+				337B81FC818F870290DB0E41C91246CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9D9F6F608E41E9D0077C72DFF02A0D7 /* PBXTargetDependency */,
-				49255D8040A5924090E820F0A1C885FD /* PBXTargetDependency */,
+				693943FDE5A3484411692717955F7D9B /* PBXTargetDependency */,
 			);
 			name = "Pods-OverlayView_Example";
 			productName = "Pods-OverlayView_Example";
@@ -430,39 +300,20 @@
 		};
 		AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 204F96E37DB5972B4AF29C718620671E /* Build configuration list for PBXNativeTarget "OverlayView" */;
+			buildConfigurationList = 79882AAEF553FE3AD18A607E0110C46E /* Build configuration list for PBXNativeTarget "OverlayView" */;
 			buildPhases = (
-				19641AD77587F57B21C18D98B9310750 /* Headers */,
-				B6C3C17E07A72688D4451D08EFC898CF /* Sources */,
-				DF447DE222346B2259228DD4AD3B4046 /* Frameworks */,
-				2E738D1CA69376308229458356F15E00 /* Resources */,
+				B447AA45177779D427826C77D9B8F4DA /* Headers */,
+				5011114894B6450865282B6B662AFAD9 /* Sources */,
+				13C92034D0328BE8BBA8A374CB48A5C7 /* Frameworks */,
+				449F16D52C34A14D4ABA998BAC6C194D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				522FC1420A265B8B57E27F03C581BBEE /* PBXTargetDependency */,
 			);
 			name = OverlayView;
 			productName = OverlayView;
 			productReference = F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDCE7513219B1BC883E5FB9BBB7CDAF5 /* Build configuration list for PBXNativeTarget "SteviaLayout" */;
-			buildPhases = (
-				0230773A61E5C4959FF8398569263C48 /* Headers */,
-				D07668DBCB51C573CF61F29729B821F7 /* Sources */,
-				6EFC353648B1957E7F4B46DFEB299DAC /* Frameworks */,
-				3F4705342C7767C4E186892D491ABCDE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SteviaLayout;
-			productName = SteviaLayout;
-			productReference = DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -483,34 +334,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9EDD74DAE3771E9E1121171C3BC126D0 /* Products */;
+			productRefGroup = 53825DAD09438EB482BF91D9856245CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */,
 				94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */,
 				7ABB277A295D62C5F87514C863D70970 /* Pods-OverlayView_Tests */,
-				CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E738D1CA69376308229458356F15E00 /* Resources */ = {
+		337B81FC818F870290DB0E41C91246CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F4705342C7767C4E186892D491ABCDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE5F81AC72D7F65BAA860397B1781E64 /* Resources */ = {
+		449F16D52C34A14D4ABA998BAC6C194D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,47 +370,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4860B0599378C0C2E88BE0659AE46688 /* Sources */ = {
+		04DC9030C0F7BE39718C54478FC6416E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA7B931C01D6699B5A1AECEF461D00DE /* Pods-OverlayView_Example-dummy.m in Sources */,
+				4FBC51B746FE32F60516508D80FFC3FE /* Pods-OverlayView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C3C17E07A72688D4451D08EFC898CF /* Sources */ = {
+		5011114894B6450865282B6B662AFAD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D947FFF546FC09AD4FABC8C59823EE97 /* OverlayView-dummy.m in Sources */,
-				D225043209D79BA2F5B12CF37DC874EB /* OverlayView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D07668DBCB51C573CF61F29729B821F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6BF1B5EB1B83D20D220F174D81B3A24 /* Stevia+Alignment.swift in Sources */,
-				824D42A656657397EDF07BB8D8527906 /* Stevia+Baselines.swift in Sources */,
-				8C478F3037C8E12316896B71DABD1534 /* Stevia+Center.swift in Sources */,
-				FD334E39AF331EE1CEAB3AE467080B9D /* Stevia+Constraints.swift in Sources */,
-				ECB479658BDC8459FBF1BEB90E542BCF /* Stevia+Content.swift in Sources */,
-				4BC6FFD620BF1CB55DE55F75B05D5ADE /* Stevia+DoubleDash.swift in Sources */,
-				D2DF792FE6CBEAFB2AA05F397C040608 /* Stevia+Equation.swift in Sources */,
-				B243388B637AFD5DC843FE7DBA99CEA9 /* Stevia+Fill.swift in Sources */,
-				86129D22EF7A0C2A332CE1FBAC4CCE39 /* Stevia+FlexibleMargin.swift in Sources */,
-				AB3917873062A16018F7EE17162DC8D3 /* Stevia+GetConstraint.swift in Sources */,
-				A6AD18BA01ACD6F540E0E1A4128C370D /* Stevia+Hierarchy.swift in Sources */,
-				7D8D60FE01087F29038B83FA98F1D25E /* Stevia+LayoutAnchors.swift in Sources */,
-				90F6AF85A5C0BA536CE9C2D631E8F4B2 /* Stevia+Notifications.swift in Sources */,
-				43655F64563FF4545F2C46DB1737A572 /* Stevia+Operators.swift in Sources */,
-				5912AD601A23388568389DA49527D073 /* Stevia+Percentage.swift in Sources */,
-				1ECFE7C5B93D71274B0AC2FC4EBE5814 /* Stevia+Position.swift in Sources */,
-				E358DACCAA174FE1DA32251C6359D786 /* Stevia+Size.swift in Sources */,
-				AA387CE7B748CB7C76B2B8F5B12721F2 /* Stevia+Stacks.swift in Sources */,
-				3D62BA5169D4FF88179F12CCC90F2576 /* Stevia+Style.swift in Sources */,
-				2D68FC2507D7AD40C909254ACFBDAAB0 /* SteviaLayout-dummy.m in Sources */,
+				CAD2110E5C341681F1BC73FA39BFBED0 /* OverlayView.swift in Sources */,
+				CF1D9FAC8F09CD0150DD523C7E01FA16 /* OverlayView-dummy.m in Sources */,
+				B15F19F346868D1E2C4DB27E84B9094C /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,38 +399,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49255D8040A5924090E820F0A1C885FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SteviaLayout;
-			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
-			targetProxy = D2D6517302EEB424850BA79029FB6615 /* PBXContainerItemProxy */;
-		};
-		522FC1420A265B8B57E27F03C581BBEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SteviaLayout;
-			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
-			targetProxy = 41818D2FA1594325B469E5212549D806 /* PBXContainerItemProxy */;
-		};
-		7A7A60567D7BAAF1BFF8D82A2C261DDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-OverlayView_Example";
-			target = 94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */;
-			targetProxy = 58F2754E341D4DCDE321DE7FE60012F6 /* PBXContainerItemProxy */;
-		};
-		C9D9F6F608E41E9D0077C72DFF02A0D7 /* PBXTargetDependency */ = {
+		693943FDE5A3484411692717955F7D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OverlayView;
 			target = AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */;
-			targetProxy = 3D8320110DD5DCEF3901372EC959F733 /* PBXContainerItemProxy */;
+			targetProxy = 97D9D6C8D535B9932DC349FF7BCBEC59 /* PBXContainerItemProxy */;
+		};
+		BCDF0C5BDA79C57F7B47F610B13714F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OverlayView_Example";
+			target = 94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */;
+			targetProxy = 874EEEE842362637B059FE67759412A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		046ED0F0E653652B01399302FAE45C0D /* Debug */ = {
+		1DA3E8B02667F4EC51D150C4FF65A2AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA3E9606A2FC83972075EAA075CB8F54 /* Pods-OverlayView_Example.debug.xcconfig */;
+			baseConfigurationReference = 9423A370603466C65C7E3DBE934F8FB3 /* OverlayView.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -624,30 +428,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
+				PRODUCT_MODULE_NAME = OverlayView;
+				PRODUCT_NAME = OverlayView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		46750E33FC047E626F8176EF8C2AF58C /* Release */ = {
+		4840C406F3F955040E4B7AB7F96A60C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B315AEFDCE53BE99C3F4815EE18018D /* Pods-OverlayView_Example.release.xcconfig */;
+			baseConfigurationReference = 1494C4E243CF94AF5C8098AC01F2A744 /* OverlayView.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -658,82 +460,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6061571385464118452BFBE3D337043E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SteviaLayout/SteviaLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
-				PRODUCT_MODULE_NAME = Stevia;
-				PRODUCT_NAME = Stevia;
+				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
+				PRODUCT_MODULE_NAME = OverlayView;
+				PRODUCT_NAME = OverlayView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8934A6F8E5DDE6422E2997D6F57CBBF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SteviaLayout/SteviaLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
-				PRODUCT_MODULE_NAME = Stevia;
-				PRODUCT_NAME = Stevia;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -802,6 +540,40 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		AA6C62875889DE416D059669A27A544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3E9606A2FC83972075EAA075CB8F54 /* Pods-OverlayView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AF62C75CB118B710A02B6BB0BC7A1EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -938,10 +710,11 @@
 			};
 			name = Release;
 		};
-		EBF39B0D4A309E03B260DB2558A13649 /* Debug */ = {
+		F0FF675FCD43B8852D72FDC8CBFBAE49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B34D99B0E042E0592212F8C6E53907B /* OverlayView.debug.xcconfig */;
+			baseConfigurationReference = 6B315AEFDCE53BE99C3F4815EE18018D /* Pods-OverlayView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -952,50 +725,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
-				PRODUCT_MODULE_NAME = OverlayView;
-				PRODUCT_NAME = OverlayView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF06792B9BF2AACC8618F3E4C21D4F92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534C49985226A81D2A55B26CFD0EDBEA /* OverlayView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
-				PRODUCT_MODULE_NAME = OverlayView;
-				PRODUCT_NAME = OverlayView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1006,15 +748,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		204F96E37DB5972B4AF29C718620671E /* Build configuration list for PBXNativeTarget "OverlayView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBF39B0D4A309E03B260DB2558A13649 /* Debug */,
-				FF06792B9BF2AACC8618F3E4C21D4F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		34E4FE60AF71CE6544368B554E7B1629 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1033,20 +766,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1337CD350E6AE572BF40212572C1E7B /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */ = {
+		79882AAEF553FE3AD18A607E0110C46E /* Build configuration list for PBXNativeTarget "OverlayView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				046ED0F0E653652B01399302FAE45C0D /* Debug */,
-				46750E33FC047E626F8176EF8C2AF58C /* Release */,
+				1DA3E8B02667F4EC51D150C4FF65A2AB /* Debug */,
+				4840C406F3F955040E4B7AB7F96A60C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDCE7513219B1BC883E5FB9BBB7CDAF5 /* Build configuration list for PBXNativeTarget "SteviaLayout" */ = {
+		B6E27191F777518436ABAF275FEDEA66 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6061571385464118452BFBE3D337043E /* Debug */,
-				8934A6F8E5DDE6422E2997D6F57CBBF1 /* Release */,
+				AA6C62875889DE416D059669A27A544F /* Debug */,
+				F0FF675FCD43B8852D72FDC8CBFBAE49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

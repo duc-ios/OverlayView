@@ -1,6 +1,6 @@
 {
   "name": "OverlayView",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "OverlayView",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,16 +14,12 @@
   },
   "source": {
     "git": "https://github.com/duc-ios/OverlayView.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "OverlayView/Classes/**/*",
-  "dependencies": {
-    "SteviaLayout": [
-
-    ]
-  },
+  "frameworks": "UIKit",
   "swift_version": "5.0"
 }

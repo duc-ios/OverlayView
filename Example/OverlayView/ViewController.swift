@@ -7,56 +7,113 @@
 //
 
 import UIKit
-import Stevia
 import OverlayView
 
 class ViewController: UIViewController {
+    
+    let btnMiddle = UIButton(type: .system)
+    let btnTop = UIButton(type: .system)
+    let btnBottom = UIButton(type: .system)
+    let btnView = UIButton(type: .system)
+    let segmentX = UISegmentedControl()
+    let segmentY = UISegmentedControl()
+    let txfX = UITextField()
+    let txfY = UITextField()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let btnMiddle = UIButton(type: .system)
-        btnMiddle.setTitle("Show at middle", for: [])
+        btnMiddle.setTitle("Middle", for: [])
         btnMiddle.addTarget(self, action: #selector(showMiddle), for: .touchUpInside)
         
-        let btnBottom = UIButton(type: .system)
-        btnBottom.setTitle("Show from bottom", for: [])
+        btnTop.setTitle("Top", for: [])
+        btnTop.addTarget(self, action: #selector(showTop), for: .touchUpInside)
+        
+        btnBottom.setTitle("Bottom", for: [])
         btnBottom.addTarget(self, action: #selector(showBottom), for: .touchUpInside)
         
-        let btnBottomCenter = UIButton(type: .system)
-        btnBottomCenter.setTitle("Show from bottom center", for: [])
-        btnBottomCenter.addTarget(self, action: #selector(showBottomCenter), for: .touchUpInside)
+        btnView.setTitle("View", for: [])
+        btnView.addTarget(self, action: #selector(showView), for: .touchUpInside)
         
-        let vStack = UIStackView(arrangedSubviews: [btnMiddle, btnBottom, btnBottomCenter])
-        vStack.axis = .vertical
-        view.sv(vStack)
-        vStack.centerInContainer()
+        segmentX.insertSegment(withTitle: "Left", at: 0, animated: false)
+        segmentX.insertSegment(withTitle: "Center", at: 1, animated: false)
+        segmentX.insertSegment(withTitle: "Right", at: 2, animated: false)
+        segmentX.selectedSegmentIndex = 0
+        segmentX.addTarget(self, action: #selector(xValueChanged), for: .valueChanged)
+        
+        segmentY.insertSegment(withTitle: "Up", at: 0, animated: false)
+        segmentY.insertSegment(withTitle: "Down", at: 1, animated: false)
+        segmentY.selectedSegmentIndex = 0
+        segmentY.addTarget(self, action: #selector(xValueChanged), for: .valueChanged)
+        
+        [txfX, txfY].forEach {
+            $0.borderStyle = .line
+            $0.keyboardType = .numberPad
+            $0.textAlignment = .center
+        }
+        txfX.placeholder = "X"
+        txfY.placeholder = "Y"
+        
+        let row = UIStackView(arrangedSubviews: [txfX, txfY])
+        row.spacing = 8
+        
+        let column = UIStackView(arrangedSubviews: [btnMiddle, btnTop, btnBottom, btnView, segmentX, segmentY, row])
+        column.alignment = .center
+        column.axis = .vertical
+        column.spacing = 8
+        view.subviews(column)
+        column.centerInContainer()
     }
     
-    @objc func showMiddle() {
+    @objc func showMiddle(_ sender: UIButton) {
         let popup = UIView()
         popup.size(300)
         popup.backgroundColor = .orange
         popup.ov.show(position: .middle,  dismissOnTap: true)
     }
     
-    @objc func showBottom() {
+    @objc func showTop(_ sender: UIButton) {
         let popup = UIView()
-        popup.height(600)
+        popup.height(300)
+        popup.backgroundColor = .orange
+        popup.ov.show(position: .top,  dismissOnTap: true)
+    }
+    
+    @objc func showBottom(_ sender: UIButton) {
+        let popup = UIView()
+        popup.height(300)
         popup.backgroundColor = .orange
         popup.ov.show(position: .bottom,  dismissOnTap: true)
     }
     
-    @objc func showBottomCenter() {
+    @objc func showView(_ sender: UIButton) {
         let popup = UIView()
-        popup.height(600).width(300)
+        popup.size(300)
         popup.backgroundColor = .orange
-        popup.ov.show(position: .bottom,  dismissOnTap: true)
+        let directionX: OverlayView.DirectionX
+        switch segmentX.selectedSegmentIndex {
+        case 0: directionX = .left
+        case 2: directionX = .right
+        default: directionX = .center
+        }
+        let directionY: OverlayView.DirectionY
+        switch segmentY.selectedSegmentIndex {
+        case 0: directionY = .up
+        default: directionY = .down
+        }
+        var point: CGPoint?
+        if let x = Double(txfX.text!), let y = Double(txfY.text!) {
+            point = CGPoint(x: CGFloat(x), y: CGFloat(y))
+        }
+        popup.ov.show(position: .view(sender, point, directionX: directionX, directionY: directionY),  dismissOnTap: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func xValueChanged(_ sender: UISegmentedControl) {
+        print(sender.selectedSegmentIndex)
+    }
+    
+    @objc func yValueChanged(_ sender: UISegmentedControl) {
+        print(sender.selectedSegmentIndex)
     }
 
 }

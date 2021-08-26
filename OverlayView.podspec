@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverlayView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'OverlayView'
   s.swift_version    = "5.0"
 
@@ -38,7 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-#  s.frameworks = 'UIKit'
-  s.dependency 'SteviaLayout'
+  s.frameworks = 'UIKit'
 
 end
