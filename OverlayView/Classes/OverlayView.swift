@@ -145,7 +145,7 @@ public class OverlayView: UIView {
             _from = overlayWindow.rootViewController!.view
         }
         _from.subviews(self)
-        fillContainer()
+        fill()
         
         subviews(view)
         layoutIfNeeded() // initial position
@@ -157,14 +157,14 @@ public class OverlayView: UIView {
         case .top:
             view.top(0)
             if view.widthConstraint == nil {
-                view.left(0).right(0)
+                view.fillH()
             } else {
                 view.left(greaterThanOrEqualTo: 0).centerHorizontally()
             }
         case .bottom:
             view.bottom(0)
             if view.widthConstraint == nil {
-                view.left(0).right(0)
+                view.fillH()
             } else {
                 view.left(greaterThanOrEqualTo: 0).centerHorizontally()
             }
@@ -303,6 +303,9 @@ public extension OverlayViewWrapper where Base: UIView {
     
     func dismiss(duration: TimeInterval = 0.3,
                  complete: (() -> Void)? = nil) {
-        base.overlayView?.dismiss(duration: duration, complete: complete)
+        base.overlayView?.dismiss(duration: duration, complete: {
+            complete?()
+            base.overlayView = nil
+        })
     }
 }

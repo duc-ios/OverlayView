@@ -99,12 +99,20 @@ public extension UIView {
     }
     
     @discardableResult
-    func fillContainer() -> Self {
-        guard let superview = superview else { return self }
-        leftAnchor.constraint(equalTo: superview.leftAnchor).isActive = true
-        rightAnchor.constraint(equalTo: superview.rightAnchor).isActive = true
-        topAnchor.constraint(equalTo: superview.topAnchor).isActive = true
-        bottomAnchor.constraint(equalTo: superview.bottomAnchor).isActive = true
+    func fill(_ padding: CGFloat = 0) -> Self {
+        fillH(padding).fillV(padding)
+        return self
+    }
+    
+    @discardableResult
+    func fillH(_ padding: CGFloat = 0) -> Self {
+        left(padding).right(padding)
+        return self
+    }
+    
+    @discardableResult
+    func fillV(_ padding: CGFloat = 0) -> Self {
+        top(padding).bottom(padding)
         return self
     }
     
