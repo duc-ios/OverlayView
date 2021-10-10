@@ -235,11 +235,9 @@ public class OverlayView: UIView {
         onDismiss?()
         removeFromSuperview()
         view?.removeFromSuperview()
-        if #available(iOS 13, *) {
-            currentWindow?.windowScene = nil
-        }
         if currentWindow?.isKeyWindow == true {
             prevWindow?.makeKeyAndVisible()
+            prevWindow?.rootViewController?.setNeedsStatusBarAppearanceUpdate()
             
             if let prevWindow = prevWindow as? OverlayWindow {
                 prevWindow.alpha = 0
@@ -247,6 +245,9 @@ public class OverlayView: UIView {
                     prevWindow.alpha = 1
                 }
             }
+        }
+        if #available(iOS 13, *) {
+            currentWindow?.windowScene = nil
         }
         prevWindow = nil
         currentWindow?.isHidden = true
