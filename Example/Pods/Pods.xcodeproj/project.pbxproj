@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04060A363382992A5887A4A5A8C29CC7 /* Pods-OverlayView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80C877730D75EF4AC6358239FD130D /* Pods-OverlayView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D12CBF585578B1AA8358813FC5124FE /* Pods-OverlayView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E28C38394B68473DF0E414EBC92B12 /* Pods-OverlayView_Tests-dummy.m */; };
-		4FBC51B746FE32F60516508D80FFC3FE /* Pods-OverlayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F01E4EAFFDB8BF140A73BE7FDE30BB /* Pods-OverlayView_Example-dummy.m */; };
-		9D8B1A374B0E141822B2FC21D792CB24 /* Pods-OverlayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7941AF3F3770DD73CC8F02965FDDCE6 /* OverlayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B15F19F346868D1E2C4DB27E84B9094C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE85FB9D785496D7326287D260B64 /* UIView+.swift */; };
-		CAD2110E5C341681F1BC73FA39BFBED0 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614DA1A01FF9319DA4C3138C8B57A12 /* OverlayView.swift */; };
-		CD05BF90E44CCE53EDC91D303806E520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		CF1D9FAC8F09CD0150DD523C7E01FA16 /* OverlayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E82EB76D9199DD664CD1B38CCFE555 /* OverlayView-dummy.m */; };
-		DFB58B336253ADF7DE8E58055A73EEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		EA4BB4D9C9F06B9AB19DBCF3ADEB8543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		F9092709EFDDE9676FE3B6FA86AB3196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		11757AD04112F30AE4E94E044FFD890C /* OverlayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E82EB76D9199DD664CD1B38CCFE555 /* OverlayView-dummy.m */; };
+		25B3DED56A962817AE8369DD8DC860DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		305DD0F384E2E932737578D430E15817 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		3272EE099E929AEFB85624F2A5C172F9 /* Pods-OverlayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F01E4EAFFDB8BF140A73BE7FDE30BB /* Pods-OverlayView_Example-dummy.m */; };
+		42565A559C860B423E5F47A3A92AA583 /* Pods-OverlayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4908DA5E223AAFAD8979358060138ADD /* Pods-OverlayView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80C877730D75EF4AC6358239FD130D /* Pods-OverlayView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68177348E5995B231326F5DDC71CE411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6E3A53C50117B77B2F70BC0EF5FC59EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9F34DBF8AB7617D1881CD02A428197C2 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE85FB9D785496D7326287D260B64 /* UIView+.swift */; };
+		B5308A11ABA0087D63E4AD781E63695D /* Pods-OverlayView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E28C38394B68473DF0E414EBC92B12 /* Pods-OverlayView_Tests-dummy.m */; };
+		BFFE6367209AEF6D1C9701E7A39CB272 /* OverlayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17D5FFCC1C596DF51139E8870755C1C /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4614DA1A01FF9319DA4C3138C8B57A12 /* OverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		874EEEE842362637B059FE67759412A9 /* PBXContainerItemProxy */ = {
+		188DD55B3990FCE2E2081456D1096C24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 94FFDCCD23AF969B7D7CF4FDC5B41115;
 			remoteInfo = "Pods-OverlayView_Example";
 		};
-		97D9D6C8D535B9932DC349FF7BCBEC59 /* PBXContainerItemProxy */ = {
+		D936EED3E31AEE45E04935B6F5D78BFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,7 +62,7 @@
 		A4F1A304C405893FDE719AA64EF8DEB9 /* OverlayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-umbrella.h"; sourceTree = "<group>"; };
 		AA3E9606A2FC83972075EAA075CB8F54 /* Pods-OverlayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B01517CB3A76A2D0F34B1F1F7CE8EB70 /* Pods-OverlayView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7DFD2422710EAF9E84A3744D9CB137E /* Pods_OverlayView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OverlayView_Example.framework; path = "Pods-OverlayView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DFD2422710EAF9E84A3744D9CB137E /* Pods-OverlayView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OverlayView_Example"; path = Pods_OverlayView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB80C877730D75EF4AC6358239FD130D /* Pods-OverlayView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverlayView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBB91AF2DB2208963EC11DB3C17487E2 /* Pods-OverlayView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE6C2F2147D7DAEFDB9793BA21F699EA /* Pods-OverlayView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverlayView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -70,35 +70,35 @@
 		D2E73EC83A3DDF9E972008E2DAF2F661 /* Pods-OverlayView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverlayView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E628340B4C5DF4E7AD6BC871895C3291 /* OverlayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverlayView-prefix.pch"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EF27C4EF36DE48934CF784E58EB4A155 /* Pods_OverlayView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OverlayView_Tests.framework; path = "Pods-OverlayView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF27C4EF36DE48934CF784E58EB4A155 /* Pods-OverlayView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OverlayView_Tests"; path = Pods_OverlayView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C1A870A3253912A4F599A219B32A7 /* Pods-OverlayView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverlayView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OverlayView.framework; path = OverlayView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25E11D40BBF548C91BF9D72301F2199 /* OverlayView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OverlayView; path = OverlayView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0229F412E4570384DE6A914F30561E /* Pods-OverlayView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverlayView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13C92034D0328BE8BBA8A374CB48A5C7 /* Frameworks */ = {
+		32F5E3A34783494814CE167FA2E95B11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9092709EFDDE9676FE3B6FA86AB3196 /* Foundation.framework in Frameworks */,
-				EA4BB4D9C9F06B9AB19DBCF3ADEB8543 /* UIKit.framework in Frameworks */,
+				68177348E5995B231326F5DDC71CE411 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F81C4B133093711A9283F992061E3EC6 /* Frameworks */ = {
+		644A9CEF48CC6F6C226C2175044459DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB58B336253ADF7DE8E58055A73EEFC /* Foundation.framework in Frameworks */,
+				25B3DED56A962817AE8369DD8DC860DE /* Foundation.framework in Frameworks */,
+				305DD0F384E2E932737578D430E15817 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB974DA45500B7A40A9ECAD4DFDA12DD /* Frameworks */ = {
+		DFB0357B9DD54B2C1E6960E274D7C777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD05BF90E44CCE53EDC91D303806E520 /* Foundation.framework in Frameworks */,
+				6E3A53C50117B77B2F70BC0EF5FC59EA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,16 +119,6 @@
 				66989611FD259D50AD46153EC309F186 /* OverlayView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		53825DAD09438EB482BF91D9856245CF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */,
-				B7DFD2422710EAF9E84A3744D9CB137E /* Pods_OverlayView_Example.framework */,
-				EF27C4EF36DE48934CF784E58EB4A155 /* Pods_OverlayView_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -188,6 +178,16 @@
 			path = "Target Support Files/Pods-OverlayView_Example";
 			sourceTree = "<group>";
 		};
+		CBD55B9831F12EE082EDAA9AA5CCEC4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25E11D40BBF548C91BF9D72301F2199 /* OverlayView */,
+				B7DFD2422710EAF9E84A3744D9CB137E /* Pods-OverlayView_Example */,
+				EF27C4EF36DE48934CF784E58EB4A155 /* Pods-OverlayView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CC8D2C4114AC2B38A418EC0503ECE642 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +209,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				40C95F5FE3B216FB3853AE547C6CD406 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				53825DAD09438EB482BF91D9856245CF /* Products */,
+				CBD55B9831F12EE082EDAA9AA5CCEC4D /* Products */,
 				A6C667D0A552DBB372B108BD10CF0FB1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -233,27 +233,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B2DF06820010BE1593FF7CFEA197164 /* Headers */ = {
+		4704FC6ABFF360A1F8005DD429016229 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8B1A374B0E141822B2FC21D792CB24 /* Pods-OverlayView_Example-umbrella.h in Headers */,
+				4908DA5E223AAFAD8979358060138ADD /* Pods-OverlayView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B447AA45177779D427826C77D9B8F4DA /* Headers */ = {
+		48422E80E2A2CDDEC943AE31FEE5D3B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7941AF3F3770DD73CC8F02965FDDCE6 /* OverlayView-umbrella.h in Headers */,
+				BFFE6367209AEF6D1C9701E7A39CB272 /* OverlayView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D62C789AFBD30EFA888B1BAD666D1B2D /* Headers */ = {
+		A688342C732D8FC3BC6C3DDD25B53ED2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04060A363382992A5887A4A5A8C29CC7 /* Pods-OverlayView_Tests-umbrella.h in Headers */,
+				42565A559C860B423E5F47A3A92AA583 /* Pods-OverlayView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,50 +262,50 @@
 /* Begin PBXNativeTarget section */
 		7ABB277A295D62C5F87514C863D70970 /* Pods-OverlayView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34E4FE60AF71CE6544368B554E7B1629 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Tests" */;
+			buildConfigurationList = 47C988F0A08E2E98EDB7F30965FF0FC5 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Tests" */;
 			buildPhases = (
-				D62C789AFBD30EFA888B1BAD666D1B2D /* Headers */,
-				DA0D2F1D41677A857E3E25579A34FDD6 /* Sources */,
-				FB974DA45500B7A40A9ECAD4DFDA12DD /* Frameworks */,
-				FF985814E4810A06F5AD733038E6F1C2 /* Resources */,
+				4704FC6ABFF360A1F8005DD429016229 /* Headers */,
+				B5646F84DEBD0DF989AF2092CE108EDC /* Sources */,
+				32F5E3A34783494814CE167FA2E95B11 /* Frameworks */,
+				857C739DDDD156DAA29BF01EEC8E3019 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCDF0C5BDA79C57F7B47F610B13714F8 /* PBXTargetDependency */,
+				47CEA6C5D17DD4CFAD8D56C650FACDD4 /* PBXTargetDependency */,
 			);
 			name = "Pods-OverlayView_Tests";
-			productName = "Pods-OverlayView_Tests";
-			productReference = EF27C4EF36DE48934CF784E58EB4A155 /* Pods_OverlayView_Tests.framework */;
+			productName = Pods_OverlayView_Tests;
+			productReference = EF27C4EF36DE48934CF784E58EB4A155 /* Pods-OverlayView_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E27191F777518436ABAF275FEDEA66 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */;
+			buildConfigurationList = 45C069F2D564135D7F308C38D932D316 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */;
 			buildPhases = (
-				7B2DF06820010BE1593FF7CFEA197164 /* Headers */,
-				04DC9030C0F7BE39718C54478FC6416E /* Sources */,
-				F81C4B133093711A9283F992061E3EC6 /* Frameworks */,
-				337B81FC818F870290DB0E41C91246CE /* Resources */,
+				A688342C732D8FC3BC6C3DDD25B53ED2 /* Headers */,
+				B951F0AA14DB7CB1A1D02F19A7A4DFB1 /* Sources */,
+				DFB0357B9DD54B2C1E6960E274D7C777 /* Frameworks */,
+				ECF77A3FE2DC073FD2B870FD78904603 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				693943FDE5A3484411692717955F7D9B /* PBXTargetDependency */,
+				CEEE8806998B7D2F2DC2EFEE40CE8F78 /* PBXTargetDependency */,
 			);
 			name = "Pods-OverlayView_Example";
-			productName = "Pods-OverlayView_Example";
-			productReference = B7DFD2422710EAF9E84A3744D9CB137E /* Pods_OverlayView_Example.framework */;
+			productName = Pods_OverlayView_Example;
+			productReference = B7DFD2422710EAF9E84A3744D9CB137E /* Pods-OverlayView_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79882AAEF553FE3AD18A607E0110C46E /* Build configuration list for PBXNativeTarget "OverlayView" */;
+			buildConfigurationList = 18947CFEE224BFACC825BAA404FF2DBA /* Build configuration list for PBXNativeTarget "OverlayView" */;
 			buildPhases = (
-				B447AA45177779D427826C77D9B8F4DA /* Headers */,
-				5011114894B6450865282B6B662AFAD9 /* Sources */,
-				13C92034D0328BE8BBA8A374CB48A5C7 /* Frameworks */,
-				449F16D52C34A14D4ABA998BAC6C194D /* Resources */,
+				48422E80E2A2CDDEC943AE31FEE5D3B5 /* Headers */,
+				29AE90A1AAF5B9B51B0F01ACD9960F1D /* Sources */,
+				644A9CEF48CC6F6C226C2175044459DF /* Frameworks */,
+				0027CF5FF262CC2EEA07723F476FC617 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -313,7 +313,7 @@
 			);
 			name = OverlayView;
 			productName = OverlayView;
-			productReference = F25E11D40BBF548C91BF9D72301F2199 /* OverlayView.framework */;
+			productReference = F25E11D40BBF548C91BF9D72301F2199 /* OverlayView */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,11 +330,11 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 53825DAD09438EB482BF91D9856245CF /* Products */;
+			productRefGroup = CBD55B9831F12EE082EDAA9AA5CCEC4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -346,21 +346,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		337B81FC818F870290DB0E41C91246CE /* Resources */ = {
+		0027CF5FF262CC2EEA07723F476FC617 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449F16D52C34A14D4ABA998BAC6C194D /* Resources */ = {
+		857C739DDDD156DAA29BF01EEC8E3019 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF985814E4810A06F5AD733038E6F1C2 /* Resources */ = {
+		ECF77A3FE2DC073FD2B870FD78904603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,178 +370,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04DC9030C0F7BE39718C54478FC6416E /* Sources */ = {
+		29AE90A1AAF5B9B51B0F01ACD9960F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FBC51B746FE32F60516508D80FFC3FE /* Pods-OverlayView_Example-dummy.m in Sources */,
+				E17D5FFCC1C596DF51139E8870755C1C /* OverlayView.swift in Sources */,
+				11757AD04112F30AE4E94E044FFD890C /* OverlayView-dummy.m in Sources */,
+				9F34DBF8AB7617D1881CD02A428197C2 /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5011114894B6450865282B6B662AFAD9 /* Sources */ = {
+		B5646F84DEBD0DF989AF2092CE108EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD2110E5C341681F1BC73FA39BFBED0 /* OverlayView.swift in Sources */,
-				CF1D9FAC8F09CD0150DD523C7E01FA16 /* OverlayView-dummy.m in Sources */,
-				B15F19F346868D1E2C4DB27E84B9094C /* UIView+.swift in Sources */,
+				B5308A11ABA0087D63E4AD781E63695D /* Pods-OverlayView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0D2F1D41677A857E3E25579A34FDD6 /* Sources */ = {
+		B951F0AA14DB7CB1A1D02F19A7A4DFB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D12CBF585578B1AA8358813FC5124FE /* Pods-OverlayView_Tests-dummy.m in Sources */,
+				3272EE099E929AEFB85624F2A5C172F9 /* Pods-OverlayView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		693943FDE5A3484411692717955F7D9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OverlayView;
-			target = AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */;
-			targetProxy = 97D9D6C8D535B9932DC349FF7BCBEC59 /* PBXContainerItemProxy */;
-		};
-		BCDF0C5BDA79C57F7B47F610B13714F8 /* PBXTargetDependency */ = {
+		47CEA6C5D17DD4CFAD8D56C650FACDD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OverlayView_Example";
 			target = 94FFDCCD23AF969B7D7CF4FDC5B41115 /* Pods-OverlayView_Example */;
-			targetProxy = 874EEEE842362637B059FE67759412A9 /* PBXContainerItemProxy */;
+			targetProxy = 188DD55B3990FCE2E2081456D1096C24 /* PBXContainerItemProxy */;
+		};
+		CEEE8806998B7D2F2DC2EFEE40CE8F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OverlayView;
+			target = AC4361222BDC6CE447F5A626C0CA3C7C /* OverlayView */;
+			targetProxy = D936EED3E31AEE45E04935B6F5D78BFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DA3E8B02667F4EC51D150C4FF65A2AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9423A370603466C65C7E3DBE934F8FB3 /* OverlayView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
-				PRODUCT_MODULE_NAME = OverlayView;
-				PRODUCT_NAME = OverlayView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4840C406F3F955040E4B7AB7F96A60C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1494C4E243CF94AF5C8098AC01F2A744 /* OverlayView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
-				PRODUCT_MODULE_NAME = OverlayView;
-				PRODUCT_NAME = OverlayView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		AA6C62875889DE416D059669A27A544F /* Debug */ = {
+		03FFBDAB3DCD58F917A33845224867C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA3E9606A2FC83972075EAA075CB8F54 /* Pods-OverlayView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -558,7 +431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
@@ -575,41 +448,7 @@
 			};
 			name = Debug;
 		};
-		AF62C75CB118B710A02B6BB0BC7A1EFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2E73EC83A3DDF9E972008E2DAF2F661 /* Pods-OverlayView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -662,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -675,11 +514,72 @@
 			};
 			name = Debug;
 		};
-		D115DD4AC02C8119AB4313666D2820AB /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB91AF2DB2208963EC11DB3C17487E2 /* Pods-OverlayView_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90B1E5A89ED840206C6202D0F2F8CCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9423A370603466C65C7E3DBE934F8FB3 /* OverlayView.debug.xcconfig */;
+			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,27 +590,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
+				PRODUCT_MODULE_NAME = OverlayView;
+				PRODUCT_NAME = OverlayView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F0FF675FCD43B8852D72FDC8CBFBAE49 /* Release */ = {
+		B5109F7AC9E1238118FEC538245C21A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B315AEFDCE53BE99C3F4815EE18018D /* Pods-OverlayView_Example.release.xcconfig */;
 			buildSettings = {
@@ -727,7 +625,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Example/Pods-OverlayView_Example.modulemap";
@@ -745,14 +643,134 @@
 			};
 			name = Release;
 		};
+		F163D0D95560BE765A5640FD616A48B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB91AF2DB2208963EC11DB3C17487E2 /* Pods-OverlayView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F17BD37F8A4EEB60B2D58CD94DC6F965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1494C4E243CF94AF5C8098AC01F2A744 /* OverlayView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OverlayView/OverlayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverlayView/OverlayView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OverlayView/OverlayView.modulemap";
+				PRODUCT_MODULE_NAME = OverlayView;
+				PRODUCT_NAME = OverlayView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A934A2983120F0F5E4178668ED2CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E73EC83A3DDF9E972008E2DAF2F661 /* Pods-OverlayView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverlayView_Tests/Pods-OverlayView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34E4FE60AF71CE6544368B554E7B1629 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Tests" */ = {
+		18947CFEE224BFACC825BAA404FF2DBA /* Build configuration list for PBXNativeTarget "OverlayView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF62C75CB118B710A02B6BB0BC7A1EFC /* Debug */,
-				D115DD4AC02C8119AB4313666D2820AB /* Release */,
+				90B1E5A89ED840206C6202D0F2F8CCDB /* Debug */,
+				F17BD37F8A4EEB60B2D58CD94DC6F965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C069F2D564135D7F308C38D932D316 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFBDAB3DCD58F917A33845224867C8 /* Debug */,
+				B5109F7AC9E1238118FEC538245C21A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C988F0A08E2E98EDB7F30965FF0FC5 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A934A2983120F0F5E4178668ED2CA7 /* Debug */,
+				F163D0D95560BE765A5640FD616A48B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,26 +778,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
-				903A0004D3E6651EFD5D2E16214D101B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		79882AAEF553FE3AD18A607E0110C46E /* Build configuration list for PBXNativeTarget "OverlayView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DA3E8B02667F4EC51D150C4FF65A2AB /* Debug */,
-				4840C406F3F955040E4B7AB7F96A60C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6E27191F777518436ABAF275FEDEA66 /* Build configuration list for PBXNativeTarget "Pods-OverlayView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA6C62875889DE416D059669A27A544F /* Debug */,
-				F0FF675FCD43B8852D72FDC8CBFBAE49 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
