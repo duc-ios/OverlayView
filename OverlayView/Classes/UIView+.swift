@@ -5,7 +5,9 @@
 //  Created by Duc on 27/08/2021.
 //
 
-public extension UIView {
+import UIKit
+
+internal extension UIView {
     @discardableResult
     func subviews(_ view: UIView) -> Self {
         view.translatesAutoresizingMaskIntoConstraints = false

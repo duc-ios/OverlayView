@@ -69,21 +69,21 @@ class ViewController: UIViewController {
         let popup = UIView()
         popup.size(300)
         popup.backgroundColor = .orange
-        popup.ov.show(position: .middle,  dismissOnTap: true)
+        popup.ov.show(position: .middle, dismissOnTap: true, dismissOnPan: true)
     }
     
     @objc func showTop(_ sender: UIButton) {
         let popup = UIView()
         popup.height(300)
         popup.backgroundColor = .orange
-        popup.ov.show(position: .top,  dismissOnTap: true)
+        popup.ov.show(position: .top, dismissOnTap: true, dismissOnPan: true)
     }
     
     @objc func showBottom(_ sender: UIButton) {
         let popup = UIView()
         popup.height(300)
         popup.backgroundColor = .orange
-        popup.ov.show(position: .bottom,  dismissOnTap: true)
+        popup.ov.show(position: .bottom, dismissOnTap: true, dismissOnPan: true)
     }
     
     @objc func showView(_ sender: UIButton) {
@@ -105,7 +105,7 @@ class ViewController: UIViewController {
         if let x = Double(txfX.text!), let y = Double(txfY.text!) {
             point = CGPoint(x: CGFloat(x), y: CGFloat(y))
         }
-        popup.ov.show(position: .view(sender, point, directionX: directionX, directionY: directionY),  dismissOnTap: true)
+        popup.ov.show(position: .view(sender, point, directionX: directionX, directionY: directionY), dismissOnTap: true, dismissOnPan: true)
     }
     
     @objc func xValueChanged(_ sender: UISegmentedControl) {

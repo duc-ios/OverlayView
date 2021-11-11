@@ -48,11 +48,13 @@ public class OverlayView: UIView {
                   view: UIView,
                   backgroundStyle: BackgroundStyle = .dim,
                   dismissOnTap: Bool = false,
+                  dismissOnPan: Bool = false,
                   onDismiss: (() -> Void)?) {
         self.position = position
         self.view = view
         self.backgroundStyle = backgroundStyle
         self.dismissOnTap = dismissOnTap
+        self.dismissOnPan = dismissOnPan
         self.onDismiss = onDismiss
         super.init(frame: .zero)
         commonInit()
@@ -63,22 +65,70 @@ public class OverlayView: UIView {
     }
     
     // MARK: - Views
-    weak var view: UIView?
-    let position: Position
-    let backgroundStyle: BackgroundStyle
-    let dismissOnTap: Bool
-    let onDismiss: (() -> Void)?
+    private weak var view: UIView?
+    private let position: Position
+    private let backgroundStyle: BackgroundStyle
+    private let dismissOnTap: Bool
+    private let dismissOnPan: Bool
+    private let onDismiss: (() -> Void)?
     
-    func commonInit() {
+    private lazy var tap: UITapGestureRecognizer = {
         let tap = UITapGestureRecognizer()
         tap.cancelsTouchesInView = false
         tap.delegate = self
-        tap.addTarget(self, action: #selector(ontap(_:)))
+        tap.addTarget(self, action: #selector(onTap(_:)))
+        return tap
+    }()
+    
+    private lazy var pan: UIPanGestureRecognizer = {
+        let pan = UIPanGestureRecognizer()
+        pan.cancelsTouchesInView = false
+        pan.delegate = self
+        pan.addTarget(self, action: #selector(onPan(_:)))
+        return pan
+    }()
+    
+    func commonInit() {
         addGestureRecognizer(tap)
     }
     
-    @objc func ontap(_ tap: UITapGestureRecognizer) {
+    @objc private func onTap(_ tap: UITapGestureRecognizer) {
         if dismissOnTap { dismiss() }
+    }
+    
+    private var viewTranslation = CGPoint.zero
+
+    @objc private func onPan(_ pan: UIPanGestureRecognizer) {
+        guard dismissOnPan else { return }
+        
+        if case .view = position { return }
+        
+        switch pan.state {
+        case .changed:
+            viewTranslation = pan.translation(in: self)
+            switch position {
+            case .top where viewTranslation.y > 0:
+                viewTranslation.y = 0
+            case .bottom where viewTranslation.y < 0:
+                viewTranslation.y = 0
+            default:
+                break
+            }
+            
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: { [unowned self] in
+                pan.view?.transform = CGAffineTransform(translationX: 0, y: viewTranslation.y)
+            })
+        case .ended:
+            if abs(viewTranslation.y) < ((pan.view?.bounds.height ?? 0) / 2) {
+                UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+                    pan.view?.transform = .identity
+                })
+            } else {
+                dismiss()
+            }
+        default:
+            break
+        }
     }
     
     private func originalPosition() {
@@ -149,6 +199,8 @@ public class OverlayView: UIView {
         
         subviews(view)
         layoutIfNeeded() // initial position
+        
+        view.addGestureRecognizer(pan)
         
         switch position {
         case .middle:
@@ -234,6 +286,7 @@ public class OverlayView: UIView {
     func cleanUp() {
         onDismiss?()
         removeFromSuperview()
+        view?.removeGestureRecognizer(pan)
         view?.removeFromSuperview()
         if currentWindow?.isKeyWindow == true {
             prevWindow?.makeKeyAndVisible()
@@ -257,7 +310,11 @@ public class OverlayView: UIView {
 
 extension OverlayView: UIGestureRecognizerDelegate {
     public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
-        touch.view == gestureRecognizer.view
+        if gestureRecognizer == tap {
+            return touch.view == gestureRecognizer.view
+        } else {
+            return true
+        }
     }
 }
 
@@ -294,11 +351,13 @@ public extension OverlayViewWrapper where Base: UIView {
               position: OverlayView.Position = .middle,
               backgroundStyle: OverlayView.BackgroundStyle = .dim,
               dismissOnTap: Bool = false,
+              dismissOnPan: Bool = false,
               onDismiss: (() -> Void)? = nil) {
         base.overlayView = OverlayView(position: position,
                                        view: base,
                                        backgroundStyle: backgroundStyle,
                                        dismissOnTap: dismissOnTap,
+                                       dismissOnPan: dismissOnPan,
                                        onDismiss: onDismiss).show(from: from, duration: duration)
     }
     
