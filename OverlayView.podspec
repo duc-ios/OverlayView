@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverlayView'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'OverlayView'
   s.swift_version    = "5.0"
 

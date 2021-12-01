@@ -316,6 +316,9 @@ extension OverlayView: UIGestureRecognizerDelegate {
             return true
         }
     }
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
+    }
 }
 
 public protocol OverlayViewCompatible: AnyObject {
