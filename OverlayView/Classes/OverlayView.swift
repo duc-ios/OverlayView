@@ -44,11 +44,15 @@ public class OverlayView: UIView {
         case up, down
     }
     
+    public enum DismissOnPan {
+        case none, view(UIView? = nil)
+    }
+    
     internal init(position: Position,
                   view: UIView,
                   backgroundStyle: BackgroundStyle = .dim,
                   dismissOnTap: Bool = false,
-                  dismissOnPan: Bool = false,
+                  dismissOnPan: DismissOnPan = .none,
                   onDismiss: (() -> Void)?) {
         self.position = position
         self.view = view
@@ -69,7 +73,7 @@ public class OverlayView: UIView {
     private let position: Position
     private let backgroundStyle: BackgroundStyle
     private let dismissOnTap: Bool
-    private let dismissOnPan: Bool
+    private let dismissOnPan: DismissOnPan
     private let onDismiss: (() -> Void)?
     
     private lazy var tap: UITapGestureRecognizer = {
@@ -97,10 +101,8 @@ public class OverlayView: UIView {
     }
     
     private var viewTranslation = CGPoint.zero
-
+    
     @objc private func onPan(_ pan: UIPanGestureRecognizer) {
-        guard dismissOnPan else { return }
-        
         if case .view = position { return }
         
         switch pan.state {
@@ -115,13 +117,14 @@ public class OverlayView: UIView {
                 break
             }
             
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: { [unowned self] in
-                pan.view?.transform = CGAffineTransform(translationX: 0, y: viewTranslation.y)
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: { [weak self] in
+                guard let self = self else { return }
+                self.view?.transform = CGAffineTransform(translationX: 0, y: self.viewTranslation.y)
             })
         case .ended:
-            if abs(viewTranslation.y) < ((pan.view?.bounds.height ?? 0) / 2) {
-                UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-                    pan.view?.transform = .identity
+            if abs(viewTranslation.y) < ((self.view?.bounds.height ?? 0) / 2) {
+                UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseOut, animations: { [weak self] in
+                    self?.view?.transform = .identity
                 })
             } else {
                 dismiss()
@@ -200,7 +203,9 @@ public class OverlayView: UIView {
         subviews(view)
         layoutIfNeeded() // initial position
         
-        view.addGestureRecognizer(pan)
+        if case .view(let panView) = dismissOnPan {
+            (panView ?? view).addGestureRecognizer(pan)
+        }
         
         switch position {
         case .middle:
@@ -253,13 +258,13 @@ public class OverlayView: UIView {
                        initialSpringVelocity: 0,
                        options: .curveEaseInOut,
                        animations: { [weak self] in
-                        guard let self = self else { return }
-                        switch self.backgroundStyle {
-                        case .dim: self.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-                        case .clear: self.backgroundColor = .clear
-                        }
-                        self.view?.transform = .identity
-                       }, completion: nil)
+            guard let self = self else { return }
+            switch self.backgroundStyle {
+            case .dim: self.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+            case .clear: self.backgroundColor = .clear
+            }
+            self.view?.transform = .identity
+        }, completion: nil)
         
         return self
     }
@@ -270,12 +275,12 @@ public class OverlayView: UIView {
                        delay: 0,
                        options: .curveEaseInOut,
                        animations: { [weak self] in
-                        self?.backgroundColor = .clear
-                        self?.originalPosition()
-                       }, completion: { [weak self] in
-                        complete?()
-                        if $0 { self?.cleanUp() }
-                       })
+            self?.backgroundColor = .clear
+            self?.originalPosition()
+        }, completion: { [weak self] in
+            complete?()
+            if $0 { self?.cleanUp() }
+        })
     }
     
     deinit {
@@ -286,7 +291,7 @@ public class OverlayView: UIView {
     func cleanUp() {
         onDismiss?()
         removeFromSuperview()
-        view?.removeGestureRecognizer(pan)
+        pan.view?.removeGestureRecognizer(pan)
         view?.removeFromSuperview()
         if currentWindow?.isKeyWindow == true {
             prevWindow?.makeKeyAndVisible()
@@ -312,10 +317,10 @@ extension OverlayView: UIGestureRecognizerDelegate {
     public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
         if gestureRecognizer == tap {
             return touch.view == gestureRecognizer.view
-        } else {
-            return true
         }
+        return true
     }
+    
     public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
@@ -354,7 +359,7 @@ public extension OverlayViewWrapper where Base: UIView {
               position: OverlayView.Position = .middle,
               backgroundStyle: OverlayView.BackgroundStyle = .dim,
               dismissOnTap: Bool = false,
-              dismissOnPan: Bool = false,
+              dismissOnPan: OverlayView.DismissOnPan = .none,
               onDismiss: (() -> Void)? = nil) {
         base.overlayView = OverlayView(position: position,
                                        view: base,
