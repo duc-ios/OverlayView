@@ -10,6 +10,12 @@ import UIKit
 // MARK: - Overlay
 
 private class OverlayWindow: UIWindow {
+    @available(iOS 13.0, *)
+    override init(windowScene: UIWindowScene) {
+        super.init(windowScene: windowScene)
+        commonInit()
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -93,6 +99,7 @@ public class OverlayView: UIView {
     }()
     
     func commonInit() {
+        print("===== Init class \(NSStringFromClass(classForCoder)) =====")
         addGestureRecognizer(tap)
     }
     
@@ -188,9 +195,12 @@ public class OverlayView: UIView {
         if let from = from {
             _from = from
         } else {
-            let overlayWindow = OverlayWindow(frame: UIScreen.main.bounds)
-            if #available(iOS 13.0, *) {
-                overlayWindow.windowScene = keyWindow?.windowScene
+            let overlayWindow: OverlayWindow
+            if #available(iOS 13.0, *), let windowScene = keyWindow?.windowScene {
+                overlayWindow = OverlayWindow(windowScene: windowScene)
+                overlayWindow.frame = UIScreen.main.bounds
+            } else {
+                overlayWindow = OverlayWindow(frame: UIScreen.main.bounds)
             }
             overlayWindow.isHidden = false
             overlayWindow.makeKeyAndVisible()
